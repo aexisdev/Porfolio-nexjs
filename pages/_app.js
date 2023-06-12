@@ -1,5 +1,14 @@
 import '@/styles/globals.css'
+import Navbar from '@/components/Navbar';
+//? importando next-theme
+
+
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return  <>
+    
+        <Navbar/>
+        <Component {...pageProps} />
+    
+  </>
 }
