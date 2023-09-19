@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 //* importacion para trabajar con los iconos de React icos, revisar doc.
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { AiOutlineMail } from "react-icons/ai";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Main = () => {
   return (
@@ -20,7 +20,7 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto tracking-widest uppercase">
             El futuro es hoy, vamos a codificarlo.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-center max-w-[350px] m-auto py-4 mr-1">
             <a
               href="https://www.linkedin.com/in/alexis-gonzalez-971432266/"
               target="_blank"
@@ -35,7 +35,7 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href="/#contact">
+            {/* <Link href="/#contact">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
@@ -44,7 +44,7 @@ const Main = () => {
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

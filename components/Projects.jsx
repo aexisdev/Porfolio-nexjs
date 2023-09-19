@@ -38,6 +38,9 @@ const Projects = () => {
           />
         </div>
       </div>
+      <div className="text-xl uppercase text-[#5651e5] text-center ">
+        <span>Hecho en Academlo con ❤️</span>
+      </div>
     </div>
   );
 };

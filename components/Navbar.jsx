@@ -9,10 +9,10 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Router, useRouter } from "next/router";
 // CREAR MI LOGO
-import NavLogo from "../public/assets/navLogo.png";
-//* Importando el icono en svg de la luna.
-import sun from "../public/sun.svg"
-import moon from "../public/moon.svg"
+import NavLogo from "../public/assets/exissLogo.png";
+//  Importando el icono en svg de la luna.
+// import sun from "../public/sun.svg"
+// import moon from "../public/moon.svg"
 
 const Navbar = () => {
   //? estado para los estilos del menu desplegable
@@ -98,12 +98,12 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="#projects">Proyectos</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            {/* <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="#resume">Resumen</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="#contact">Contacto</Link>
-            </li>
+            </li> */}
           </ul>
           {/* Icono de hamburguesa  */}
           <div
@@ -115,11 +115,11 @@ const Navbar = () => {
           </div>
         </div>
         {/* //? espacio para crear los botones para cambiar al modo oscuro y claro. */}
-				<div>
+				{/* <div>
 					<button className='bg-black/70 p-2'>
 						<Image src={sun} /> 
 					</button> 
-				</div>
+				</div> */}
 
         {/* ---------------SECCION DEL MENU VERSION MOVIL------------------ */}
         <div
@@ -185,20 +185,20 @@ const Navbar = () => {
                     Proyectos
                   </li>
                 </Link>
-                <Link href="/#contact">
+                {/* <Link href="/#contact">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Contacto
                   </li>
-                </Link>
+                </Link> */}
               </ul>
               {/* CONTENEDOR DE LOS ICONOS/ MENU MOVIL  */}
               <div className="pt-20">
                 <p className="uppercase tracking-widest text-[#5651e5]">
                   VAMOS A CONECTAR
                 </p>
-                <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+                <div className="flex items-center justify-center my-4 w-full sm:w-[80%]">
                   <a
-                    href="https://www.youtube.com/watch?v=s2ZNjt5LzRM"
+                    href="https://www.linkedin.com/in/alexis-gonzalez-971432266/"
                     target="_black"
                     rel="noreferrer"
                   >
@@ -206,12 +206,12 @@ const Navbar = () => {
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href="/" target="_black" rel="noreferrer">
+                  <a href="https://github.com/aexisdev" target="_black" rel="noreferrer">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                       <FaGithub />
                     </div>
                   </a>
-                  <Link href="/#contact">
+                  {/* <Link href="/#contact">
                     <div
                       onClick={() => setNav(!nav)}
                       className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
@@ -226,7 +226,7 @@ const Navbar = () => {
                     >
                       <BsFillPersonLinesFill />
                     </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

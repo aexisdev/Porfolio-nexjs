@@ -9,7 +9,7 @@ import Contact from '@/components/Contact';
 
 
 export default function Home() {
-    // //  ?logica del cambio oscuro a claro 
+    //! //  ?logica del cambio oscuro a claro 
 
     return (
         <div>
@@ -24,7 +24,8 @@ export default function Home() {
             <About/>
             <Skills/>
             <Projects/>
-            <Contact/>
+            {/* <Contact/> */}
+
         </div>
 
     )
