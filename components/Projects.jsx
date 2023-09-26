@@ -27,12 +27,17 @@ const Projects = () => {
             proyectUrl="/PropertyCambioFrases"
           />
           <ProyectItems
-            title="Property Finder"
+            title="Glasmorfismo"
             backgroundImg={netflixImg}
             proyectUrl="/property"
           />
           <ProyectItems
-            title="Property Finder"
+            title="Rick and Morty"
+            backgroundImg={twitchImg}
+            proyectUrl="/property"
+          />
+          <ProyectItems
+            title="Clima App"
             backgroundImg={twitchImg}
             proyectUrl="/property"
           />
