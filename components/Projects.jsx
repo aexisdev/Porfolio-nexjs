@@ -1,8 +1,8 @@
 // import Image from 'next/image';
 // import Link from 'next/link';
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/Crypto.jpg";
+import Pokedex from "../public/assets/projects/pokePortada.png";
+import CambioFrases from "../public/assets/projects/CambioFrases.png";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import ProyectItems from "./ProyectItems";
@@ -17,14 +17,14 @@ const Projects = () => {
         <h2 className="py-4 ">lo que he construido</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProyectItems
-            title="Property Finder"
-            backgroundImg={propertyImg}
+            title="Pokedex"
+            backgroundImg={Pokedex}
             proyectUrl="/property"
           />
           <ProyectItems
-            title="Crypto App"
-            backgroundImg={cryptoImg}
-            proyectUrl="/property"
+            title="Cambio Frases"
+            backgroundImg={CambioFrases}
+            proyectUrl="/PropertyCambioFrases"
           />
           <ProyectItems
             title="Property Finder"
