@@ -20,7 +20,8 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto tracking-widest uppercase">
             El futuro es hoy, vamos a codificarlo.
           </p>
-          <div className="flex items-center justify-center max-w-[350px] m-auto py-4 mr-1">
+          {/* estilos para los botones */}
+          <div className="flex items-center justify-center max-w-[350px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/alexis-gonzalez-971432266/"
               target="_blank"

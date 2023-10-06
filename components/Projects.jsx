@@ -5,6 +5,8 @@ import Pokedex from "../public/assets/projects/pokePortada.png";
 import CambioFrases from "../public/assets/projects/CambioFrases.png";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
+import RickAndMorty from "../public/assets/projects/RickAndMorty.jpg"
+import Glasmorfismo from "../public/assets/projects/GlasmorfismoFondo.png"
 import ProyectItems from "./ProyectItems";
 
 const Projects = () => {
@@ -28,12 +30,12 @@ const Projects = () => {
           />
           <ProyectItems
             title="Glasmorfismo"
-            backgroundImg={netflixImg}
+            backgroundImg={Glasmorfismo}
             proyectUrl="/property"
           />
           <ProyectItems
             title="Rick and Morty"
-            backgroundImg={twitchImg}
+            backgroundImg={RickAndMorty}
             proyectUrl="/property"
           />
           <ProyectItems
